@@ -1,0 +1,32 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Advent of Code entries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/declspec/adventofcode.git"
+  },
+  "keywords": [
+    "advent",
+    "of",
+    "code",
+    "christmas"
+  ],
+  "author": "Jason Larke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/declspec/adventofcode/issues"
+  },
+  "homepage": "https://github.com/declspec/adventofcode#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}
