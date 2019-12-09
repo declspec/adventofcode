@@ -4,14 +4,14 @@ const diffs: number[] = [];
 
 // Brute force
 processInputLines(line => diffs.push(parseInt(line, 10)), () => {
-    const freqs: number[] = [0];
+    const freqs: Set<number> = new Set<number>();
     let freq = 0, pos = 0;
 
     while (true) {
         freq += diffs[pos++];
 
-        if (freqs.indexOf(freq) < 0)
-            freqs.push(freq)
+        if (!freqs.has(freq))
+            freqs.add(freq)
         else {
             console.log(freq);
             break;
